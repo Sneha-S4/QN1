@@ -1,6 +1,6 @@
 function checkAnswer() {
     var userAnswer = document.getElementById("answerInput").value.toLowerCase();
-    var correctAnswer = "echo";
+    var correctAnswer = "queue";
 
     if (userAnswer === correctAnswer) {
         alert("Congratulations! You got it right! Your next hint is at: ");
